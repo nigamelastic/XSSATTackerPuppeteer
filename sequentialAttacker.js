@@ -12,7 +12,7 @@ var lines =[]
 //Handling Files
 try {
     // read contents of the file
-    const data = fs.readFileSync('XSS', 'UTF-8');
+    const data = fs.readFileSync('<file with your xss attack vectors>', 'UTF-8');
     // split the contents by new line
      lines = data.split(/\r?\n/);  
 } catch (err) {
