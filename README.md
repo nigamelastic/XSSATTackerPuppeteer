@@ -5,4 +5,7 @@ An automated XSS attacking tool that uses puppeteer cluster framework
 
 `npm install`
 
-update the URL and attack input and run: `npm <filename.js>`
+update the URL and attack input and run: `node <filename.js>`
+
+
+use 
